@@ -1,0 +1,249 @@
+* { 
+padding: 0;
+box-sizing: border-box;
+margin: 0%;}
+
+.pag1 {
+ background-color: #222222;
+ height: 100vh; 
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Arial, sans-serif;
+  
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+  }
+  
+  li {
+    display: inline-block;
+
+  }
+  
+  a {
+    color: #B75CFF;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #666;
+  }
+  
+  .logo {
+    float: left;
+  }
+  
+  img {
+    padding: 5px;
+    height: 60px;
+    width: auto;
+  }
+
+  .alinhar{
+    margin-top: -75px;
+    margin-left: 60px;
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 20px;
+    line-height: 60px;
+    color:#B75CFF ;
+    margin-left: 10px;
+    display: inline-block;
+    margin-top: 50px;
+  }
+
+  .conteiner {
+    display: inline-block;
+    margin: 0;
+    margin-top: 150px;
+  }
+
+  .code{
+    position: absolute;
+    margin-left: -150px;
+    margin-top: 160px;
+    height: 185px;
+    width: 185px;
+  }
+  
+  .Minha_imagem {
+    margin: 0;
+    margin-right: 20px;
+}
+  
+  .eu {
+    border-radius: 400px;
+    height: 300px;
+    width: 350px;
+    margin-left: 140px;
+  }
+  
+  .texto1 {
+    
+    margin: 0;
+    margin-right: 50px;
+    
+  }
+  
+  .cor-destaque {
+    color: #B75CFF;
+  }
+  
+  .cor-destaque2 {
+    color: #B75CFF;
+  }
+  
+  .apres {
+    color: #818181;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 500px;
+    margin-top: -200px;
+  }
+
+
+.pag2{
+  height: 100vh; /* Define a altura de cada seção para 100% da altura da viewport */
+	background-color:  #404040;
+}
+
+ /* Estilos para dispositivos móveis com largura de tela menor que 768px */
+ @media (max-width: 767px) {
+  .pag1 {
+      height: auto;
+  }
+
+  .conteiner {
+      margin-top: 50px;
+      text-align: center;
+  }
+
+  .code {
+      position: static;
+      margin: 0 auto;
+      display: block;
+      height: 150px;
+      width: 150px;
+  }
+
+  .eu {
+      height: auto;
+      width: 80%;
+      margin: 0 auto;
+  }
+
+  .apres {
+      margin-left: 0;
+      margin-top: 50px;
+      text-align: center;
+  }
+
+  nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #222222;
+      z-index: 1;
+  }
+
+  .logo {
+      display: none;
+  }
+
+  .alinhar {
+      margin-top: 15px;
+      margin-left: 0;
+  }
+
+  ul {
+      float: none;
+      text-align: center;
+      margin-top: 15px;
+  }
+
+  li {
+      display: block;
+      margin-bottom: 10px;
+  }
+
+  a {
+      padding: 5px;
+      font-size: 16px;
+  }
+
+  .pag2 {
+      height: auto;
+  }
+}
+
+/* Estilos para desktops com largura de tela maior ou igual a 768px */
+@media (min-width: 768px) {
+  .pag1 {
+      background-color: #222222;
+      height: 100vh;
+  }
+
+  nav {
+      background-color: rgba(0, 0, 0, 0);
+      font-family: Arial, sans-serif;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1;
+  }
+
+  ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      float: right;
+  }
+
+  li {
+      display: inline-block;
+  }
+
+  a {
+      color: #B75CFF;
+      display: block;
+      padding: 10px 20px;
+      text-decoration: none;
+  }
+
+  a:hover {
+      background-color: #666;
+  }
+
+  .logo {
+      float: left;
+  }
+
+  img {
+      padding: 5px;
+      height: 60px;
+      width: auto;
+  }
+
+  .alinhar {
+      margin-top: -75px;
+      margin-left: 60px;
+  }
+
+  h3 {
+      margin: 0;
+      font-size: 20px;
+      line-height: 60px;
+      color: #B75CFF;
+      margin-left: 10px;
+      display: inline-block;
+      margin-top: 10px
+  }
